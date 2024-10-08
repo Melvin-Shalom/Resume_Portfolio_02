@@ -7682,6 +7682,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
+  
   .flex-sm-row {
     flex-direction: row !important;
   }
@@ -7820,6 +7821,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
+  
   .flex-md-row {
     flex-direction: row !important;
   }
@@ -7958,6 +7960,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
+  
   .flex-lg-row {
     flex-direction: row !important;
   }
@@ -8096,6 +8099,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
+  
   .flex-xl-row {
     flex-direction: row !important;
   }
@@ -8246,6 +8250,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
+  
   .float-sm-left {
     float: left !important;
   }
@@ -8273,7 +8278,30 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 576px) {
+  .awards-container,
+  .navbar-toggler {
+    display: none !important;
+  }
+}
+
+@media (min-width: 50px) {
+  .float-md-left {
+    float: left !important;
+  }
+
+  .float-md-right {
+    float: right !important;
+  }
+
+  .float-md-none {
+    float: none !important;
+  }
+}
+
+
+
+@media (max-width: 992px) {
   .float-lg-left {
     float: left !important;
   }
@@ -8287,7 +8315,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .float-xl-left {
     float: left !important;
   }
